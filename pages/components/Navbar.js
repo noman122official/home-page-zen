@@ -1,29 +1,13 @@
 import React from 'react'
-import styled from "styled-components"
-import ".././../styles/home.module.css"
+import { Container, Heading } from './styles/Navbar.styled'
 
 function Navbar() {
     return (
-        <div>
-
-        <Container>
-            hello
+        <Container >
+            <Heading>This is the navbar of hiring bird</Heading>
         </Container>
-            
-        </div>
     )
 }
-
-const Container = styled.div`
-  width: 100%;
-  height: 100px;
-  background-color: red;
-  padding: 0;
-  box-sizing: border-box;
-`;
-
-
-
 
 export default Navbar
 
