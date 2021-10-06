@@ -1,10 +1,13 @@
 import React from 'react'
-import { Container, Links, Link, Button, Image} from './styles/Navbar.styled'
+import { Container, Links, Link, Button, Image, ImageContainer, LinkContainer} from './styles/Navbar.styled'
 
 function Navbar() {
     return (
         <Container >
-        <Image />
+        <ImageContainer>
+        <Image src="/logo.svg" />
+        </ImageContainer>
+        <LinkContainer>
           <Links>
             <Link>
             Post an Internship
@@ -19,6 +22,7 @@ function Navbar() {
             Sign Up
             </Button>
           </Links>
+          </LinkContainer>
         </Container>
     )
 }

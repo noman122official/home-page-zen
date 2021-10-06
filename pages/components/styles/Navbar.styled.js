@@ -1,28 +1,23 @@
 import styled from "styled-components";
-import logo from "../../../public/logo.svg";
+
 
 export const Container = styled.div`
-max-width: 1200px; 
+max-width: 1200px;
 margin: 0 auto;
 height: 77px;
 background-color: #fff;
 display: flex;
 align-items: center;
 justify-content: space-between;
-padding: 0;
-box-sizing: border-box;
 `;
 
 
 export const Image = styled.img`
-     background-image: url(${logo});
-     width: 200px;
-     height: 60px;
-     z-index: 1000;
+    
 `;
 
 export const Links = styled.div`
-    width: 45%;
+    width: 500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,10 +38,18 @@ export const Button = styled.button`
     border: none;
     padding:10px 26px;
     border-radius:2px;
-
     &:hover {
         background-color: #fc5b73;
     }
+`;
+
+
+export const ImageContainer = styled.div`
+`;
+
+export const LinkContainer = styled.div`
+    display: flex;
+    justify-content: flex-end;
 `;
 
 
