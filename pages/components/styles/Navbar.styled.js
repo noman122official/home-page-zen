@@ -1,5 +1,3 @@
-import { ECHILD } from "constants";
-import { ECDH } from "crypto";
 import styled from "styled-components";
 import logo from "../../../public/logo.svg";
 
@@ -41,7 +39,15 @@ export const Button = styled.button`
     background-color: #F26A7E;
     margin-right: 20px;
     color: #fff;
-    margin-top:0;
+    font-size:16px;
+    border: none;
+    padding:10px 26px;
+    border-radius:2px;
+
+    &:hover {
+        background-color: #fc5b73;
+    }
 `;
+
 
 
