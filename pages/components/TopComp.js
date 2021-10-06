@@ -1,4 +1,7 @@
+
 import { TopCom, Purple, Red, Belowred } from "./styles/TopComp.styled";
+
+
 
 const TopComp = () => {
   return (
