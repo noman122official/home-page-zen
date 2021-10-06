@@ -1,5 +1,5 @@
 
-import { TopCom ,Purple,Red,Belowred} from './styles/Navbar.styled'
+import { TopCom ,Purple,Red,Belowred} from './styles/Topcomp.styled'
 
 
 const TopComp = () => {
