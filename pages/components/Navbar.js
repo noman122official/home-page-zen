@@ -1,10 +1,24 @@
 import React from 'react'
-import { Container, Heading } from './styles/Navbar.styled'
+import { Container, Links, Link, Button, Image} from './styles/Navbar.styled'
 
 function Navbar() {
     return (
         <Container >
-            <Heading>This is the navbar of hiring bird</Heading>
+        <Image />
+          <Links>
+            <Link>
+            Post an Internship
+            </Link>
+            <Link>
+            Find Internships
+            </Link>
+            <Link>
+            Sign In
+            </Link>
+            <Button>
+            Sign Up
+            </Button>
+          </Links>
         </Container>
     )
 }

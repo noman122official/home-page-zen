@@ -2,6 +2,11 @@ import Head from 'next/head'
 import Navbar from "./components/Navbar"
 import GlobalStyles from "./components/styles/Global"
 
+import TopComp from './components/TopComp'
+
+
+
+
 export default function Home() {
 
   return (
@@ -17,6 +22,8 @@ export default function Home() {
       </Head>
 
       <Navbar />
+      <TopComp />
+
       </>
   )
 }
