@@ -1,12 +1,9 @@
 import Head from 'next/head'
 import Navbar from "./components/Navbar"
+
 import GlobalStyles from "./components/styles/Global"
-
 import TopComp from './components/TopComp'
-
-
-
-
+import Footer1 from './components/Footer1'
 export default function Home() {
 
   return (
@@ -20,6 +17,7 @@ export default function Home() {
 
       <Navbar />
       <TopComp />
+      <Footer1/>
 
       </>
   )
