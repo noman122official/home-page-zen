@@ -1,6 +1,6 @@
 import { Footer } from "./styles/Footer.styled"
 
-const Footer = () => {
+const Footer1 = () => {
   return (
     <>
       <Footer/>
@@ -8,4 +8,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer1
