@@ -13,6 +13,7 @@ import law from '../../public/law.svg'
 import arts from '../../public/arts.svg'
 
 
+
 const Container=styled.div`
 width: 100%;
 height: 100px;
